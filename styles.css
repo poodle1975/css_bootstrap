@@ -180,6 +180,8 @@ div p {
   flex-wrap: wrap;
   padding: 10px;
   background-image: url(img/Come_scegliere_scarpe_da_corsa_III_grande.jpg);
+
+  margin: 0 auto;
   margin-bottom: 50px;
 }
 .cardcontainer {
@@ -213,6 +215,7 @@ div p {
 
 .containertext-center .row .card {
   margin: 20px;
+  margin: 0 auto;
 }
 .carousel-item {
   align-items: center;
@@ -284,4 +287,83 @@ div p {
 .social a {
   font-size: 24px;
   margin: 0 10px;
+}
+/* cards staff */
+.containertext-center .card {
+  width: 18rem;
+  margin: 20px auto;
+  border: 2px dashed blue;
+  border-radius: 20px;
+  background-color: beige;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.containertext-center .card:hover {
+  transform: scale(1.05);
+}
+.containertext-center img {
+  width: 150px;
+  margin: 10px auto;
+}
+/* form contatti */
+.container .form-label {
+  color: white;
+  margin: 30px;
+}
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+.footer-column {
+  flex: 1 1 200px;
+  margin: 20px;
+  text-align: center;
+}
+.footer-column a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-column a:hover {
+  text-decoration: underline;
+}
+.footer-bottom {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+.social a {
+  font-size: 24px;
+  margin: 0 10px;
+}
+/* cards staff */
+.containertext-center .card {
+  width: 18rem;
+  margin: 20px auto;
+  border: 2px dashed blue;
+  border-radius: 20px;
+  background-color: beige;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.containertext-center .card:hover {
+  transform: scale(1.05);
+}
+.containertext-center img {
+  width: 150px;
+  margin: 10px auto;
 }
