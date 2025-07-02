@@ -87,7 +87,7 @@ h1 {
   color: brown;
 }
 
-button {
+.card button {
   background-color: gold;
   border-radius: 10px;
   height: 30px;
@@ -309,6 +309,7 @@ div p {
 .container .form-label {
   color: white;
   margin: 30px;
+  max-width: 800px;
 }
 /* footer */
 .footer {
@@ -366,4 +367,10 @@ div p {
 .containertext-center img {
   width: 150px;
   margin: 10px auto;
+}
+.btn-primary {
+  margin-bottom: 40px;
+}
+.form {
+  margin: 0 auto;
 }
